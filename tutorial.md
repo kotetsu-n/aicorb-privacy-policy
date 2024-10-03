@@ -1,18 +1,17 @@
 # Installation
 
 ## Extract the zip file and place the contents as follows:
-1. C:\Users\{$username}\AppData\Roaming\Autodesk\Revit\Addins\{$yourrevitversion}\AiCorb.addin
-2. C:\Users\{$username}\AppData\Roaming\Autodesk\Revit\Addins\{$yourrevitversion}\AiCorb\AiCorb.dll
-3. C:\Users\{$username}\AppData\Roaming\Autodesk\Revit\Addins\{$yourrevitversion}\AiCorb\MaterialDesignColors.dll
-4. C:\Users\{$username}\AppData\Roaming\Autodesk\Revit\Addins\{$yourrevitversion}\AiCorb\MaterialDesignThemes.Wpf.dll
-5. C:\Users\{$username}\AppData\Roaming\Autodesk\Revit\Addins\{$yourrevitversion}\AiCorb\Newtonsoft.Json.dll
+1. C:\Users\{$USERNAME}\AppData\Roaming\Autodesk\Revit\Addins\{$YOURREVITVERSION}\AiCorb.addin
+2. C:\Users\{$USERNAME}\AppData\Roaming\Autodesk\Revit\Addins\{$YOURREVITVERSION}\AiCorb\AiCorb.dll
+3. C:\Users\{$USERNAME}\AppData\Roaming\Autodesk\Revit\Addins\{$YOURREVITVERSION}\AiCorb\MaterialDesignColors.dll
+4. C:\Users\{$USERNAME}\AppData\Roaming\Autodesk\Revit\Addins\{$YOURREVITVERSION}\AiCorb\MaterialDesignThemes.Wpf.dll
+5. C:\Users\{$USERNAME}\AppData\Roaming\Autodesk\Revit\Addins\{$YOURREVITVERSION}\AiCorb\Newtonsoft.Json.dll
 
 # Uninstallation
 
 ## Delete all the files placed during installation.
 The past recognition result data displayed in the design palette is saved at the following location. Delete it if necessary:
-- C:\Users\{$username}\AppData\Local\AiCorb\
-
+- C:\Users\{$USERNAME}\AppData\Local\AiCorb\
 
 # How to use
 ## You can use this plugin by following the steps below:
@@ -44,3 +43,8 @@ The past recognition result data displayed in the design palette is saved at the
 2. Press "Duplicate."
 3. Enter a name and press "OK."
 4. Select the duplicated design and modify the parameters as needed.
+
+## Currently, the ugrid corresponding to the floor height is fixed. However, you can manually modify this. By following the steps below, you can explore more flexible design options:
+1. To change the panel size in the floor height direction, modify the U Grid Distance of the Divided Surface.
+2. To change the width of the panel size, modify the V Grid Distance of the Divided Surface.
+3. Press the "Apply" button to apply the changes.
